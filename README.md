@@ -32,8 +32,8 @@ Proyecto que implementa un servidor REST para gestionar un catálogo de libros u
 | DELETE | /libros/:id   | Eliminar libro por ID        |
 
 ## Capturas vista Catalogo PC y Ipad
-![Estructura del proyecto](        )
-![Estructura del proyecto](        )
+![vista PC](https://github.com/AlvarezF7/M8-2-catalogo-libros-crud-rest-express/blob/main/public/img/vista-pc.png)
+![Vista Ipad](https://github.com/AlvarezF7/M8-2-catalogo-libros-crud-rest-express/blob/main/public/img/vista-ipad.png)
 ## Instrucciones de ejecución
 
 1. Instalar dependencias: **npm install**
