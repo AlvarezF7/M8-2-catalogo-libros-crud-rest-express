@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "titulo": "Entrevista con un Vampiro",
+    "autor": "Anne Rice",
+    "anio": 1976
+  },
+  {
+    "id": 3,
+    "titulo": "El código Da Vinci",
+    "autor": "Dan Brown",
+    "anio": 2003
+  },
+  {
+    "id": 4,
+    "titulo": "Diez Negritos",
+    "autor": "Agatha Christie",
+    "anio": 1939
+  },
+  {
+    "id": 5,
+    "titulo": "Estudio en Escarlata",
+    "autor": "Arthur Conan Doyle",
+    "anio": 1887
+  },
+  {
+    "id": 6,
+    "titulo": "20.000 Leguas de Viaje Submarino",
+    "autor": "Julio Verne",
+    "anio": 1869
+  },
+  {
+    "id": 7,
+    "titulo": "El lobo Estepario",
+    "autor": "Hermann Hesse",
+    "anio": 1927
+  },
+  {
+    "id": 8,
+    "titulo": "Origen",
+    "autor": "Dan Brown",
+    "anio": 2017
+  },
+  {
+    "id": 9,
+    "titulo": "Infierno",
+    "autor": "Dan Brown",
+    "anio": 2014
+  }
+]

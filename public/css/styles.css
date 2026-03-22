@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #d3fffb62;
+  color: #2498a0;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+}
+
+/* HEADER */
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+  background: #bdf3eee8;
+  text-align: center;
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+}
+
+/* CARD (HOME) */
+.card {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(15, 160, 141, 0.466);
+}
+
+.card h1 {
+  margin-bottom: 10px;
+}
+
+
+.btn,
+button {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #2498a0;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover,
+button:hover {
+  background: #4db0f3;
+}
+
+
+.delete {
+  background: rgb(202, 7, 7);
+}
+
+.delete:hover {
+  background: rgb(255, 53, 93);
+}
+
+/* SECCIONES */
+section {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(13, 167, 154, 0.3);
+}
+
+/* FORMULARIO */
+.hidden {
+  display: none;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #2498a0;
+  border-radius: 6px;
+}
+
+#btns {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+/* TABLA */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background: #2498a0;
+  color: white;
+}
+
+td, th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  margin-top: auto;
+  padding: 15px;
+  background: #2498a0;
+  color: #defff9;
+  text-align: center;
+  font-style: italic;
+}
+
+/* RESPONSIVE */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .header-flex {
+    flex-direction: column;
+  }
+
+  #logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  #btns {
+    flex-direction: column;
+  }
+}
+
+/*  Móviles */
+@media (max-width: 480px) {
+  #container {
+    padding: 10px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+
+  button {
+    width: 100%;
+  }
+}

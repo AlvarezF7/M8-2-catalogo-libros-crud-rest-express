@@ -1,0 +1,29 @@
+{
+  "name": "m8-2-catalogo-libros-crud-rest-express",
+  "version": "1.0.0",
+  "description": "de \r ## Tecnologías utilizadas\r - Node.js.  \r - Express.   \r - HTML / CSS / JavaScript.  \r - Archivos JSON para datos de ejemplo (usuarios.json y productos.json).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlvarezF7/M8-2-catalogo-libros-crud-rest-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlvarezF7/M8-2-catalogo-libros-crud-rest-express/issues"
+  },
+  "homepage": "https://github.com/AlvarezF7/M8-2-catalogo-libros-crud-rest-express#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

@@ -1,26 +1,35 @@
 ## M8-2 Catalogo Libros CRUD Rest + express + File System
 
 ## Descripción
-de 
+Proyecto que implementa un servidor REST para gestionar un catálogo de libros utilizando Node.js y Express. Los datos se almacenan de forma persistente en un archivo JSON local, permitiendo operaciones CRUD (Crear, Leer, Actualizar, Eliminar) con respuestas adecuadas y manejo de errores.
+
 ## Tecnologías utilizadas
-- Node.js.  
-- Express.   
-- HTML / CSS / JavaScript.  
-- Archivos JSON para datos de ejemplo (usuarios.json y productos.json).
+- Node.js  
+- Express  
+- HTML / CSS / JavaScript  
+- Archivo JSON para almacenamiento local (catalogo.json)
 
 ## Estructura Proyecto
-![Texto alternativo](     )
-
+![Estructura del proyecto](        )
 
 ## Funcionalidades
 
-
+- Crear nuevos libros con título, autor y año.  
+- Listar todos los libros disponibles.  
+- Actualizar libros existentes.  
+- Eliminar libros.  
+- Manejo de errores y respuestas con códigos HTTP apropiados.  
+- Lectura y escritura asíncrona del archivo JSON para evitar bloqueo.
+- En la vista  catalogo , al hacer clic en en logo devuelve a la pagina principal.
 
 
 ## Endpoints
-
-
-
+| Método | Ruta          | Descripción                  |
+|--------|---------------|------------------------------|
+| GET    | /libros       | Obtener listado de libros    |
+| POST   | /libros       | Crear un nuevo libro         |
+| PUT    | /libros/:id   | Actualizar libro por ID      |
+| DELETE | /libros/:id   | Eliminar libro por ID        |
 
 
 ## Instrucciones de ejecución
@@ -31,9 +40,11 @@ de
 
 
 ## Notas
-
+- El proyecto utiliza un archivo JSON local (catalogo.json) para almacenar los datos de los libros. Esto significa que no está pensado para ambientes de producción o alta concurrencia, ya que la escritura y lectura concurrente puede causar inconsistencias.
 
 
 
 ## Autor
 Fernanda Álvarez para curso Fullstack Javascript Sence.
+
+
