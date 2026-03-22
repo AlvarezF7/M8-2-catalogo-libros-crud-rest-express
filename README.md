@@ -10,7 +10,7 @@ Proyecto que implementa un servidor REST para gestionar un catálogo de libros u
 - Archivo JSON para almacenamiento local (catalogo.json)
 
 ## Estructura Proyecto
-![Estructura del proyecto](        )
+![Estructura del proyecto](https://github.com/AlvarezF7/M8-2-catalogo-libros-crud-rest-express/blob/main/public/img/estructura-proyecto.png)
 
 ## Funcionalidades
 
@@ -31,7 +31,9 @@ Proyecto que implementa un servidor REST para gestionar un catálogo de libros u
 | PUT    | /libros/:id   | Actualizar libro por ID      |
 | DELETE | /libros/:id   | Eliminar libro por ID        |
 
-
+## Capturas vista Catalogo PC y Ipad
+![Estructura del proyecto](        )
+![Estructura del proyecto](        )
 ## Instrucciones de ejecución
 
 1. Instalar dependencias: **npm install**
